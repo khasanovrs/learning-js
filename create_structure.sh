@@ -4,8 +4,8 @@ if ! [ -d $1 ]; then
   exit 1
 fi
 
-mkdir $1/manual
-mkdir $1/cheat\ sheet
-mkdir $1/examples
+mkdir -p $1/manual
+mkdir -p $1/cheat\ sheet
+mkdir -p $1/examples
 
 exit 0
